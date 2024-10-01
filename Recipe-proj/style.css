@@ -65,12 +65,22 @@ a:hover{
     display: flex;
     justify-content: space-around;
     line-height: 30px;
+    transition: width 2s, height 5s;
 }
 
-.right_item{
-    /* border: 1px solid red; */
-    border-radius: 10px;
+.right_item img{
+   width: 200px;
+   height: 200px;
+   /* border: 1px solid green; */
+   transition: all 0.6s linear 0s;
 }
+
+.right_item img:hover{
+      transform: scale(1.2);
+}
+
+
+
 /* footer */
 .footerbox{
     background: rgb(238,174,202);
